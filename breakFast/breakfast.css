@@ -1,0 +1,68 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("./fonts/vazir-font-v18.0.0/Vazir-Bold.eot");
+    src: url("./fonts/vazir-font-v18.0.0/Vazir-Bold.woff") format("woff"),
+      url("./fonts/vazir-font-v18.0.0/Vazir-Bold.ttf") format("ttf"),
+      url("./fonts/vazir-font-v18.0.0/Vazir-Bold.woff2") format("woff2");
+    }
+    body {
+        font-family: vazir !important;
+        font-weight: bold;
+        background-image: url("../background/fotor-ai-20240121175259.jpg");
+        background-size: cover;
+        background-position: center center;
+      }
+.main {
+    margin: 30px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.5); /* white background with 50% opacity */
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.items{
+    border-left: solid 1px;
+}
+.items ul{
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.items li{
+    list-style: none;
+    margin: 28px 0 0 0px;
+    border-bottom: solid 1px;
+}
+.items li a{
+    color: black;
+    text-decoration: none
+}
+.items li a:hover{
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0;
+    color: black;
+}
+.info{
+    padding: 0;
+    height: aotu;
+    overflow-y: scroll;
+}
+.info h3{
+    text-align: start;
+    color: black;
+}
+.info ul{
+    padding: 0;
+    margin: 40px 10px 0 0;
+}
+.info ul li{
+    list-style: none ;
+    font-size: 16px;
+}
+.info ul p{
+    direction: ltr;
+}
+
+
